@@ -1,0 +1,32 @@
+{
+    "name": "phpscrapers/interfaces",
+    "description": "A set of interfaces to define functionality for common scrapers.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Scott Wilcox",
+            "email": "scott@dor.ky",
+            "homepage": "https://github.com/ssx",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpScrapers\\Interfaces\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --colors=always"
+    }
+}
