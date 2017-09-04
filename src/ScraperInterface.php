@@ -1,9 +1,9 @@
 <?php
-namespace PhpScaper\Interfaces;
+namespace PhpScrapers\Interfaces;
 
 /**
  * Interface ScraperInterface
- * @package PhpScaper\Interfaces
+ * @package PhpScapers\Interfaces
  */
 interface ScraperInterface {
     /**
